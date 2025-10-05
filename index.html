@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design — Beauty Salon Theme</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--main);">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Beauty Salon</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#part1">Part 1</a></li>
+          <li class="nav-item"><a class="nav-link" href="#part2">Part 2</a></li>
+          <li class="nav-item"><a class="nav-link" href="#part3">Part 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <section id="part1" class="section">
+    <h2>Part 1: Media Queries</h2>
+    <h1>Welcome to Beauty & Style</h1>
+    <p>This text adjusts its size on mobile, tablet, and desktop using pure CSS media queries.</p>
+
+    <div class="box-container mt-4">
+        <div class="color-box">
+            <img src="images/classidcoloring.jpg" alt="Classic Coloring">
+            <h3>Classic Coloring</h3>
+            <p>Even hair coloring from roots to ends. Ideal for refreshing the tone or covering gray hair.</p>
+        </div>
+
+        <div class="color-box">
+            <img src="images/balayage.jpg" alt="Highlights">
+            <h3>Highlights</h3>
+            <p>Lightening selected strands to create a sun-kissed, voluminous look. Works on any base color.</p>
+        </div>
+
+        <div class="color-box">
+            <img src="images/higlishts.jpg" alt="Balayage">
+            <h3>Balayage</h3>
+            <p>A smooth color transition from roots to ends. A modern technique that keeps a soft, natural finish.</p>
+        </div>
+    </div>
+  </section>
+
+
+  <section id="part2" class="section bg-light">
+    <h2>Part 2: Bootstrap Grid System</h2>
+
+    <div class="container text-center mb-5">
+        <h2>Types of Manicure</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div class="color-box">
+                <img src="images/classicmanicure.jpg" alt="Classic Manicure">
+                <h3>Classic Manicure</h3>
+                <p>Traditional nail care with soaking, shaping, and cuticle removal for a clean and natural look.</p>
+            </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div class="color-box">
+                <img src="images/gel.jpg" alt="Gel Manicure">
+                <h3>Gel Manicure</h3>
+                <p>Long-lasting gel polish cured under UV light, offering a glossy finish and up to 3 weeks of wear.</p>
+            </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <div class="color-box">
+                <img src="images/extension.jpg" alt="Nail Extensions">
+                <h3>Nail Extensions</h3>
+                <p>Artificial extensions for longer nails, perfect for creative designs or strengthening natural nails.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <section id="part3" class="section">
+    <h2>Part 3: Combined Responsive Portfolio Page</h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="card portfolio-card shadow-sm">
+                <img src="images/makeup.jpg" class="card-img-top" alt="Project 1">
+                <div class="card-body">
+                  <h5 class="card-title">Makeup Studio</h5>
+                  <p class="card-text">A clean design for a professional makeup service.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-4">
+              <div class="card portfolio-card shadow-sm">
+                <img src="images/hair.jpg" class="card-img-top" alt="Project 2">
+                <div class="card-body">
+                  <h5 class="card-title">Hair Design</h5>
+                  <p class="card-text">Elegant styles and modern trends showcased beautifully.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="sidebar">
+            <h4>About Me</h4>
+            <p>Hi, I’m Aizada — a beauty specialist passionate about elegant design and natural aesthetics.</p>
+            <h5>Contact</h5>
+            <p>Email: sembaeva2007@gmail.com<br>Phone: +7 (707) 123 14 17</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Beauty & Style — All rights reserved</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
